@@ -1,0 +1,9 @@
+# Dilbert kinda sucks, so cat.
+set-option -add  global ui_options terminal_assistant=cat
+hook global ModuleLoaded x11 %{
+        set global termcmd 'xterm -e'
+}
+# For clipboard
+hook global RegisterModified '"' %{ nop %sh{
+  printf %s "$kak_main_reg_dquote" | xsel --input --clipboard
+}}
