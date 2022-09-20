@@ -124,31 +124,48 @@ alias nkr="rlwrap ~/Software/k/k ~/Software/k/repl.k"
 alias bqnr="rlwrap ~/Software/CBQN/BQN"
 alias k9=~/Software/li2.0
 alias k9r="rlwrap ~/Software/li2.0"
-alias j=~/Software/j903/jconsole.sh
 alias md="~/Software/md.sh"
+alias ktk="~/Software/+/k+"
+alias ktkr="rlwrap ~/Software/+/k+"
+alias lsr="rlwrap sbcl --load ~/Software/nodebug"
+alias lsd="rlwrap sbcl"
+alias nb="netbeans --laf Nimbus -J-Dswing.aatext=true -J-Dawt.useSystemAAFontSettings=lcd"
+alias k4r="rlwrap ~/q/l32/q"
+alias factor="~/Software/factor/factor"
+alias jt=~/Documents/Code/gen/truffleruby-ws/truffleruby/bin/jt
+alias tree-sitter=~/Documents/Code/gen/tree-sitter-factor/node_modules/.bin/tree-sitter
+alias spl=~/Software/scryer-prolog/target/release/scryer-prolog
+alias gpl=gprolog
+alias notes="kak ~/Documents/notes/main/Things\ To\ Do.md ~/Documents/notes/main/Things\ completed.md"
+alias maude="~/Software/Maude/maude.linux64"
 
 export PATH=$PATH:$HOME/Software/Nial_Development/BuildNial/build
 export PATH=$PATH:$HOME/Software/j903/bin
 # mkcert for code.golf
 export PATH=$PATH:$HOME/Software/mkcert
+export PATH=$PATH:$HOME/Software
 # Python Poetry lib manager 
-export PATH="/home/razetime/.local/bin:$PATH"
+export PATH="$PATH:/home/razetime/.local/bin"
+# export SAXDIR=/usr/sax/rel
+# export PATH=$SAXDIR/bin/:$PATH
+# export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
+export AOC_SESSION=53616c7465645f5fb6fd9d8e29a7495551d9b1cd6776e6665652af073ab632495c5899896cd19150d5232a267cb5250a3096c728c4b11b22e7a7327744d5058d
 
-source ~/Software/emsdk/emsdk_env.sh
-# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
-export PATH="$PATH:$HOME/.rvm/bin"
+# source ~/Software/emsdk/emsdk_env.sh
+source /usr/local/share/chruby/chruby.sh
 
 source /etc/profile
 eval "$(/home/razetime/.rakubrew/bin/rakubrew init Bash)"
-
+eval $(opam env)
 tmux -u
 tmux source-file ~/.tmux.conf
-cd ~/Documents/Code/
+chruby ruby-3.0.3
 clear
-
 
 PATH="/home/razetime/perl5/bin${PATH:+:${PATH}}"; export PATH;
 PERL5LIB="/home/razetime/perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PERL5LIB;
 PERL_LOCAL_LIB_ROOT="/home/razetime/perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LIB_ROOT}}"; export PERL_LOCAL_LIB_ROOT;
 PERL_MB_OPT="--install_base \"/home/razetime/perl5\""; export PERL_MB_OPT;
 PERL_MM_OPT="INSTALL_BASE=/home/razetime/perl5"; export PERL_MM_OPT;
+. "$HOME/.cargo/env"
+
