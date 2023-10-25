@@ -12,7 +12,13 @@ let
       name = "kakrc.kak";
       destination = "/share/kak/autoload/${name}";
       text = ''
-        set global ui_options ncurses_assistant=cat
+        set global ui_options terminal_assistant=cat
+        set global tabstop 2
+        set global indentwidth 2
+        # For clipboard
+        hook global RegisterModified '"' %{ nop %sh{
+          printf %s "$kak_main_reg_dquote" | xsel --input --clipboard
+        }}
       '';
     });
     bqn = pkgs.stdenv.mkDerivation {
@@ -32,7 +38,7 @@ let
     };
   in
   unstable.kakoune.override {
-    plugins = with pkgs.kakounePlugins; [
+    plugins = with unstable.kakounePlugins; [
       config
       bqn
     ];
@@ -172,6 +178,7 @@ in {
     rakudo
     unstable.scryer-prolog
     zlib
+    xsel
     unixtools.xxd
   ];
 
@@ -214,6 +221,9 @@ in {
       ln -sf "${pkgs.bash}/bin/bash" /bin/
       ln -sf "${pkgs.coreutils}/bin/pwd" /bin/
     '';
+#     kak = ''
+#       ln -sf "${myKakoune}/share/kak/autoload" /home/razetime/.config/kak/autoload
+#     '';
   };
   # This value determines the NixOS release from which the default
   # settings for stateful data, like file locations and database versions
