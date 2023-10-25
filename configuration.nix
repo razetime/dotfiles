@@ -4,16 +4,50 @@
 
 { config, pkgs, ... }:
 
-{
+let
+  unstable = import <nixos-unstable> {}; # have unstable pkgs alongside stable.
+  myKakoune =
+  let
+    config = pkgs.writeTextFile (rec {
+      name = "kakrc.kak";
+      destination = "/share/kak/autoload/${name}";
+      text = ''
+        set global ui_options ncurses_assistant=cat
+      '';
+    });
+#    bqn = pkgs.kakouneUtils.buildKakounePluginFrom2Nix {
+#      pname = "bqn-kak";
+#      version = "2023-01-22";
+#      src = pkgs.fetchFromGitHub {
+#        owner = "mlochbaum";
+#        repo = "BQN";
+#        rev = "049477ac67d6b91a0e24165541d023cf8dec05b9";
+#        sha256 = "73e06eb89ebd8aea983fd6d8bfd1918735a0ec58e9d4617e2238210bcd56fdb9";
+#      };
+#      meta.homepage = "https://mlochbaum.github.io/BQN/editors/#kakoune";
+#      preFixup = ''   
+#        mv editors/kak/autoload/ .
+#      '';
+#    };
+  in
+  unstable.kakoune.override {
+    plugins = with pkgs.kakounePlugins; [
+      config
+#      bqn
+    ];
+  };
+in {
   imports =
     [ # Include the results of the hardware scan.
       ./hardware-configuration.nix
-      <home-manager/nixos>
     ];
 
   # Bootloader.
   boot.loader.systemd-boot.enable = true;
   boot.loader.efi.canTouchEfiVariables = true;
+
+  # console options
+  console.useXkbConfig = true;
 
   networking.hostName = "nixos"; # Define your hostname.
   # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
@@ -52,6 +86,14 @@
     LC_TIME = "zh_TW.UTF-8";
   };
 
+  i18n.inputMethod = {
+    enabled = "fcitx5";
+    fcitx5.addons = with pkgs; [
+        fcitx5-chewing
+        fcitx5-gtk
+    ];
+  };
+
   # Enable the X11 windowing system.
   services.xserver.enable = true;
 
@@ -66,7 +108,7 @@
   services.xserver = {
     layout = "cn,apl";
     xkbVariant = ",dyalog";
-    xkbOptions = "grp:switch";
+    xkbOptions = "grp:switch,compose:rwin";
   };
 
   # Enable CUPS to print documents.
@@ -100,24 +142,9 @@
     packages = with pkgs; [
       firefox
       jetbrains-mono
+      irssi
     #  thunderbird
     ];
-  };
-  home-manager.users.razetime = { pkgs, ... }: {
-    home.username = "razetime";
-    home.homeDirectory = "/home/razetime";
-    home.stateVersion = "23.05";
-    programs = {
-      kakoune = {
-        enable = true;
-        # defaultEditor = true;
-        config = {
-          indentWidth = 2;
-          ui.assistant = "cat";
-        };
-      };
-      home-manager.enable = true;
-    };
   };
 
   # Allow unfree packages
@@ -126,10 +153,8 @@
   # List packages installed in system profile. To search, run:
   # $ nix search wget
   environment.systemPackages = with pkgs; [
-  #  vim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
-  #  wget
     git
-    cbqn-standalone-replxx
+    unstable.cbqn-standalone-replxx
     ngn-k
     gnumake
     gcc9
@@ -138,9 +163,15 @@
     zlib
     ruby
     cmakeMinimal
-    python39
+    (python311.withPackages(ps: with ps; [ pandas ]))
+    myKakoune
     patchelf
     file
+    unstable.typst
+    rakudo
+    unstable.scryer-prolog
+    zlib
+    unixtools.xxd
   ];
 
   environment.shellAliases = {
@@ -154,7 +185,7 @@
   environment.sessionVariables = {
      EDITOR = "kak";
      SYSTEM_RUBY = "${pkgs.ruby}/bin/ruby";
-     LD_LIBRARY_PATH = "${pkgs.glibc}/lib";
+     LD_LIBRARY_PATH = "${pkgs.glibc}/lib:${pkgs.zlib}/lib";
      # JAVA_HOME   = "/home/razetime/.mx/jdks/labsjdk-ce-21-jvmci-23.1-b15";
   };
 
