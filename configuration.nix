@@ -15,25 +15,25 @@ let
         set global ui_options ncurses_assistant=cat
       '';
     });
-#    bqn = pkgs.kakouneUtils.buildKakounePluginFrom2Nix {
-#      pname = "bqn-kak";
-#      version = "2023-01-22";
-#      src = pkgs.fetchFromGitHub {
-#        owner = "mlochbaum";
-#        repo = "BQN";
-#        rev = "049477ac67d6b91a0e24165541d023cf8dec05b9";
-#        sha256 = "73e06eb89ebd8aea983fd6d8bfd1918735a0ec58e9d4617e2238210bcd56fdb9";
-#      };
-#      meta.homepage = "https://mlochbaum.github.io/BQN/editors/#kakoune";
-#      preFixup = ''   
-#        mv editors/kak/autoload/ .
-#      '';
-#    };
+    bqn = pkgs.kakouneUtils.buildKakounePluginFrom2Nix {
+      pname = "bqn-kak";
+      version = "2023-01-22";
+      src = pkgs.fetchFromGitHub {
+        owner = "mlochbaum";
+        repo = "BQN";
+        rev = "049477ac67d6b91a0e24165541d023cf8dec05b9";
+        sha256 = "sha256-Qkrqnpc3JlY5UkN9NfD9ndyFAW1XAWVBi6m3PIrQM00=";
+      };
+      meta.homepage = "https://mlochbaum.github.io/BQN/editors/#kakoune";
+      preFixup = ''   
+        mv editors/kak/autoload/ .
+      '';
+    };
   in
   unstable.kakoune.override {
     plugins = with pkgs.kakounePlugins; [
       config
-#      bqn
+      bqn
     ];
   };
 in {
