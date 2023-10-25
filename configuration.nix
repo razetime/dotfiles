@@ -15,7 +15,7 @@ let
         set global ui_options ncurses_assistant=cat
       '';
     });
-    bqn = pkgs.kakouneUtils.buildKakounePluginFrom2Nix {
+    bqn = pkgs.stdenv.mkDerivation {
       pname = "bqn-kak";
       version = "2023-01-22";
       src = pkgs.fetchFromGitHub {
@@ -25,8 +25,9 @@ let
         sha256 = "sha256-Qkrqnpc3JlY5UkN9NfD9ndyFAW1XAWVBi6m3PIrQM00=";
       };
       meta.homepage = "https://mlochbaum.github.io/BQN/editors/#kakoune";
-      preFixup = ''   
-        mv editors/kak/autoload/ .
+      installPhase  = ''
+        mkdir -p $out/share/kak/autoload/filetype
+        cp editors/kak/autoload/filetype/bqn.kak $out/share/kak/autoload/filetype
       '';
     };
   in
