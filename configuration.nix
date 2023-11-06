@@ -176,14 +176,15 @@ in {
     file
     unstable.typst
     rakudo
-    unstable.scryer-prolog
     zlib
     xsel
     unixtools.xxd
+    hanazono
   ];
 
   environment.shellAliases = {
     jt = "~/code/truffleruby-ws/truffleruby/bin/jt";
+    pl = "/home/razetime/code/scryer-prolog/target/release/scryer-prolog";
   };
   # Doesn't work, permission problem
   # environment.interactiveShellInit = ''
