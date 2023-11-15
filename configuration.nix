@@ -15,6 +15,8 @@ let
         set global ui_options terminal_assistant=cat
         set global tabstop 2
         set global indentwidth 2
+        set option global autowrap_column 80
+        add-highlighter global/ column '%opt{autowrap_column}' default,bright-black
         # For clipboard
         hook global RegisterModified '"' %{ nop %sh{
           printf %s "$kak_main_reg_dquote" | xsel --input --clipboard
@@ -138,6 +140,7 @@ in {
     #media-session.enable = true;
   };
 
+
   # Enable touchpad support (enabled default in most desktopManager).
   # services.xserver.libinput.enable = true;
 
@@ -185,6 +188,8 @@ in {
   environment.shellAliases = {
     jt = "~/code/truffleruby-ws/truffleruby/bin/jt";
     pl = "/home/razetime/code/scryer-prolog/target/release/scryer-prolog";
+    dkr = "/home/razetime/code/Decker/c/build/decker &";
+    lil = "/home/razetime/code/Decker/c/build/lilt";
   };
   # Doesn't work, permission problem
   # environment.interactiveShellInit = ''
@@ -194,7 +199,6 @@ in {
   environment.sessionVariables = {
      EDITOR = "kak";
      SYSTEM_RUBY = "${pkgs.ruby}/bin/ruby";
-     LD_LIBRARY_PATH = "${pkgs.glibc}/lib:${pkgs.zlib}/lib";
      # JAVA_HOME   = "/home/razetime/.mx/jdks/labsjdk-ce-21-jvmci-23.1-b15";
   };
 
