@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<opml version="2.0" xmlns:rssguard="https://github.com/martinrotter/rssguard">
+  <head>
+    <title>RSS Guard</title>
+    <dateCreated>Wed, 15 Nov 2023 02:39:13 GMT</dateCreated>
+  </head>
+  <body>
+    <outline description="" text="comic">
+      <outline description="The blag of the webcomic" encoding="UTF-8" rssguard:postProcess="" rssguard:xmlUrlType="0" text="xkcd" title="xkcd" type="rss" version="RSS" xmlUrl="https://blog.xkcd.com/feed/"/>
+      <outline description="" encoding="utf-8" rssguard:postProcess="" rssguard:xmlUrlType="0" text="xkcd.com" title="xkcd.com" type="rss" version="ATOM" xmlUrl="https://xkcd.com/atom.xml"/>
+      <outline description="A webcomic about a flightless bird and giant spider." encoding="UTF-8" rssguard:postProcess="" rssguard:xmlUrlType="0" text="Beyond Loom" title="Beyond Loom" type="rss" version="RSS" xmlUrl="https://beyondloom.com/comic/rss.xml"/>
+    </outline>
+    <outline description="" text="people">
+      <outline description="My name is Aaron Hsu, and I'm a computer scientist. I'm changing the way people look at computing and programming languages, what they can do with them, and how they do it. " encoding="UTF-8" rssguard:postProcess="" rssguard:xmlUrlType="0" text="Fastidious Elegance" title="Fastidious Elegance" type="rss" version="RSS" xmlUrl="https://www.sacrideo.us/rss/"/>
+      <outline description="" encoding="UTF-8" rssguard:postProcess="" rssguard:xmlUrlType="0" text="Blog™" title="Blog™" type="rss" version="ATOM" xmlUrl="https://trimill.xyz/blog/atom.xml"/>
+      <outline description="News and Announcements" encoding="UTF-8" rssguard:postProcess="" rssguard:xmlUrlType="0" text="Protesilaos Stavrou: News and Announcements" title="Protesilaos Stavrou: News and Announcements" type="rss" version="RSS" xmlUrl="https://protesilaos.com/news.xml"/>
+      <outline description="Computers, cats, and eternal sleepiness" encoding="utf-8" rssguard:postProcess="" rssguard:xmlUrlType="0" text="Kaylynn's blog" title="Kaylynn's blog" type="rss" version="RSS" xmlUrl="https://kaylynn.gay/blog/feed.rss"/>
+      <outline description="Recent content in Leonora Tindall on Nora Codes" encoding="utf-8" rssguard:postProcess="" rssguard:xmlUrlType="0" text="Leonora Tindall on Nora Codes" title="Leonora Tindall on Nora Codes" type="rss" version="RSS" xmlUrl="https://nora.codes/index.xml"/>
+      <outline description="" encoding="utf-8" rssguard:postProcess="" rssguard:xmlUrlType="0" text="Blog | jackkelly.name" title="Blog | jackkelly.name" type="rss" version="ATOM" xmlUrl="http://jackkelly.name/blog/atom.xml"/>
+      <outline description="sometimes i, heav, perform 'blogging'. incredible, right?" encoding="UTF-8" rssguard:postProcess="" rssguard:xmlUrlType="0" text="heavblogosphere™" title="heavblogosphere™" type="rss" version="RSS" xmlUrl="https://heav.mondecitronne.com/blog/rss.xml"/>
+      <outline description="Essays by John Earnest" encoding="UTF-8" rssguard:postProcess="" rssguard:xmlUrlType="0" text="Beyond Loom Blog" title="Beyond Loom Blog" type="rss" version="RSS" xmlUrl="https://beyondloom.com/blog/rss.xml"/>
+      <outline description="mikejsavage.co.uk" encoding="utf-8" rssguard:postProcess="" rssguard:xmlUrlType="0" text="mikejsavage.co.uk" title="mikejsavage.co.uk" type="rss" version="RSS" xmlUrl="https://mikejsavage.co.uk/blog/rss.xml"/>
+      <outline description="Stories by Akshita Dixit on Medium" encoding="UTF-8" rssguard:postProcess="" rssguard:xmlUrlType="0" text="Stories by Akshita Dixit on Medium" title="Stories by Akshita Dixit on Medium" type="rss" version="RSS" xmlUrl="https://medium.com/feed/@plastic96"/>
+      <outline description="" encoding="UTF-8" rssguard:postProcess="" rssguard:xmlUrlType="0" text="m15o's Journal" title="m15o's Journal" type="rss" version="ATOM" xmlUrl="https://journal.miso.town/atom?url=https://m15o.ichi.city/site/journal.html"/>
+      <outline description="Recent content on Bounded-Error Log" encoding="utf-8" rssguard:postProcess="" rssguard:xmlUrlType="0" text="Bounded-Error Log" title="Bounded-Error Log" type="rss" version="RSS" xmlUrl="https://blog.vero.site/index.xml"/>
+      <outline description="" encoding="UTF-8" rssguard:postProcess="" rssguard:xmlUrlType="0" text="argmin gravitas" title="argmin gravitas" type="rss" version="RSS" xmlUrl="https://www.gleech.org/feed.xml"/>
+      <outline description="The Internet." encoding="utf-8" rssguard:postProcess="" rssguard:xmlUrlType="0" text="osmarks' website" title="osmarks' website" type="rss" version="RSS" xmlUrl="https://osmarks.net/rss.xml"/>
+      <outline description="welcome to citrons.xyz journal" encoding="UTF-8" rssguard:postProcess="" rssguard:xmlUrlType="0" text="citrons.xyz - journal" title="citrons.xyz - journal" type="rss" version="RSS" xmlUrl="https://citrons.xyz/a/journal/rss.xml"/>
+      <outline description="Latest gwern.net updates, interesting links, and reviews" encoding="UTF-8" rssguard:postProcess="" rssguard:xmlUrlType="0" text="Gwern.net Newsletter" title="Gwern.net Newsletter" type="rss" version="RSS" xmlUrl="https://gwern.substack.com/feed"/>
+      <outline description="Rek and Devine project updates" encoding="UTF-8" rssguard:postProcess="" rssguard:xmlUrlType="0" text="Hundred Rabbits" title="Hundred Rabbits" type="rss" version="RSS" xmlUrl="https://100r.co/links/rss.xml"/>
+      <outline description="emma ultlang μblog rss feed" encoding="UTF-8" rssguard:postProcess="" rssguard:xmlUrlType="0" text="ultlangμblog" title="ultlangμblog" type="rss" version="RSS" xmlUrl="https://ultlang.github.io/b/rss.rss"/>
+    </outline>
+    <outline description="" text="code">
+      <outline description="" text="corp">
+        <outline description="" encoding="UTF-8" rssguard:postProcess="" rssguard:xmlUrlType="0" text="Errata Security" title="Errata Security" type="rss" version="ATOM" xmlUrl="https://blog.erratasec.com/feeds/posts/default"/>
+        <outline description="IT Support, Websites and Software in Crawley, West Sussex" encoding="UTF-8" rssguard:postProcess="" rssguard:xmlUrlType="0" text="Optima Systems" title="Optima Systems" type="rss" version="RSS" xmlUrl="https://optima-systems.co.uk/feed/"/>
+        <outline description="Updates, ideas, and inspiration from GitHub to help developers build and design software." encoding="UTF-8" rssguard:postProcess="" rssguard:xmlUrlType="0" text="The GitHub Blog" title="The GitHub Blog" type="rss" version="RSS" xmlUrl="https://github.blog/feed/"/>
+        <outline description="" encoding="UTF-8" rssguard:postProcess="" rssguard:xmlUrlType="0" text="Dyalog Blog" title="Dyalog Blog" type="rss" version="RSS" xmlUrl="https://www.dyalog.com/blog/feed/"/>
+      </outline>
+      <outline description="" text="pod">
+        <outline description="&lt;p>We explore the Array Languages of APL, J, k, q and offshoots. If you are Array Language curious, this is the podcast for you. Occasionally we may dive into the weeds, but most of the time we try to stay accessible to the general listener.&lt;/p>" encoding="UTF-8" rssguard:postProcess="" rssguard:xmlUrlType="0" text="The Array Cast" title="The Array Cast" type="rss" version="RSS" xmlUrl="https://arraycast.com/episodes?format=rss"/>
+        <outline description="Inspired by Ken Iverson’s paper “Notation as a Tool of Thought”, this podcast explores various aspects of notation, in the context of the APL programming language." encoding="UTF-8" rssguard:postProcess="" rssguard:xmlUrlType="0" text="The APL Show podcast" title="The APL Show podcast" type="rss" version="RSS" xmlUrl="https://apl.show/podcast.rss"/>
+      </outline>
+      <outline description="" text="opt/design">
+        <outline description="A strategy game design and programming blog." encoding="utf-8" rssguard:postProcess="" rssguard:xmlUrlType="0" text="No Hidden Info" title="No Hidden Info" type="rss" version="ATOM" xmlUrl="http://nohidden.info/feed.xml"/>
+        <outline description="A blog about low-level software and hardware performance." encoding="utf-8" rssguard:postProcess="" rssguard:xmlUrlType="0" text="Performance Matters" title="Performance Matters" type="rss" version="ATOM" xmlUrl="https://travisdowns.github.io/feed.xml"/>
+        <outline description="We write things once per every heat death of the universe." encoding="UTF-8" rssguard:postProcess="" rssguard:xmlUrlType="0" text="Applied Language musings" title="Applied Language musings" type="rss" version="RSS" xmlUrl="https://applied-langua.ge/posts/feed.rss"/>
+        <outline description="The musings, ideas, discussions, and sometimes silly words from a digital sheep magician" encoding="utf-8" rssguard:postProcess="" rssguard:xmlUrlType="0" text="The Pasture" title="The Pasture" type="rss" version="ATOM" xmlUrl="https://thephd.dev/feed.xml"/>
+        <outline description="A growing collection of interactive tutorials, guides and quizzes about maths, algorithms, performance, and programming languages." encoding="UTF-8" rssguard:postProcess="" rssguard:xmlUrlType="0" text="Words and Buttons Online" title="Words and Buttons Online" type="rss" version="RSS" xmlUrl="https://wordsandbuttons.online/rss"/>
+        <outline description="Recent content on Hillel Wayne" encoding="utf-8" rssguard:postProcess="" rssguard:xmlUrlType="0" text="Hillel Wayne" title="Hillel Wayne" type="rss" version="RSS" xmlUrl="https://www.hillelwayne.com/index.xml"/>
+        <outline description="Recent posts" encoding="utf-8" rssguard:postProcess="" rssguard:xmlUrlType="0" text="Dimitri Lozeve's Blog" title="Dimitri Lozeve's Blog" type="rss" version="RSS" xmlUrl="https://www.lozeve.com/./rss.xml"/>
+        <outline description="Latest posts on Nathan Reed’s coding blog" encoding="utf-8" rssguard:postProcess="" rssguard:xmlUrlType="0" text="Nathan Reed’s coding blog" title="Nathan Reed’s coding blog" type="rss" version="RSS" xmlUrl="https://www.reedbeta.com/feed/"/>
+        <outline description="" encoding="UTF-8" rssguard:postProcess="" rssguard:xmlUrlType="0" text="danluu" title="danluu" type="rss" version="ATOM" xmlUrl="https://danluu.com/atom.xml"/>
+      </outline>
+      <outline description="" text="fp">
+        <outline description="" encoding="UTF-8" rssguard:postProcess="" rssguard:xmlUrlType="0" text="blog" title="blog" type="rss" version="ATOM" xmlUrl="http://blog.vmchale.com/atom"/>
+        <outline description="Recent content on Inanna Malick" encoding="utf-8" rssguard:postProcess="" rssguard:xmlUrlType="0" text="Inanna Malick" title="Inanna Malick" type="rss" version="RSS" xmlUrl="https://recursion.wtf/index.xml"/>
+        <outline description="Haskell geek. Wannabe mathematician. Electronic music fanatic." encoding="utf-8" rssguard:postProcess="" rssguard:xmlUrlType="0" text="Inside ocharles" title="Inside ocharles" type="rss" version="RSS" xmlUrl="https://blog.ocharles.org.uk/blog/posts.rss"/>
+        <outline description="" encoding="utf-8" rssguard:postProcess="" rssguard:xmlUrlType="0" text="Martin Elsman" title="Martin Elsman" type="rss" version="ATOM" xmlUrl="https://elsman.com/atom.xml"/>
+        <outline description="Random thoughts about tech stuff" encoding="UTF-8" rssguard:postProcess="" rssguard:xmlUrlType="0" text="Nauths" title="Nauths" type="rss" version="RSS" xmlUrl="https://nauths.fr/en/feed.xml"/>
+        <outline description="Recent content in Posts on Brian McGee" encoding="UTF-8" rssguard:postProcess="" rssguard:xmlUrlType="0" text="Posts on Brian McGee" title="Posts on Brian McGee" type="rss" version="RSS" xmlUrl="https://bmcgee.ie/posts/index.xml"/>
+        <outline description="" encoding="utf-8" rssguard:postProcess="" rssguard:xmlUrlType="0" text="toastal" title="toastal" type="rss" version="ATOM" xmlUrl="https://toast.al/posts/feed.atom"/>
+      </outline>
+      <outline description="" text="gmae">
+        <outline description="" encoding="UTF-8" rssguard:postProcess="" rssguard:xmlUrlType="0" text="distractionware" title="distractionware" type="rss" version="RSS" xmlUrl="https://distractionware.com/blog/feed/"/>
+      </outline>
+      <outline description="" text="array">
+        <outline description="" encoding="UTF-8" rssguard:postProcess="" rssguard:xmlUrlType="0" text="q-ist" title="q-ist" type="rss" version="ATOM" xmlUrl="http://www.q-ist.com/feeds/posts/default"/>
+        <outline description="&lt;a rel=&quot;me&quot; href=&quot;https://functional.cafe/@loke&quot;>@loke@functional cafe&lt;/a>" encoding="UTF-8" rssguard:postProcess="" rssguard:xmlUrlType="0" text="Elias Mårtenson" title="Elias Mårtenson" type="rss" version="RSS" xmlUrl="https://blog.dhsdevelopments.com/feed/"/>
+        <outline description="Escape from Finnish farmland, Silicon Valley style" encoding="UTF-8" rssguard:postProcess="" rssguard:xmlUrlType="0" text="Juuso Haavisto" title="Juuso Haavisto" type="rss" version="RSS" xmlUrl="https://juuso.dev/rss.xml"/>
+        <outline description="a weblog by leah neukirchen" encoding="utf-8" rssguard:postProcess="" rssguard:xmlUrlType="0" text="leah blogs" title="leah blogs" type="rss" version="ATOM" xmlUrl="https://leahneukirchen.org/blog/index.atom"/>
+      </outline>
+      <outline description="" text="ruby">
+        <outline description="A blog about Ruby, Performance and Concurrency" encoding="utf-8" rssguard:postProcess="" rssguard:xmlUrlType="0" text="On the Edge of Ruby" title="On the Edge of Ruby" type="rss" version="ATOM" xmlUrl="https://eregon.me/blog/feed.xml"/>
+        <outline description="Technical articles by Kevin Menard.  Topics include Ruby, Java, machine learning, and general computing." encoding="utf-8" rssguard:postProcess="" rssguard:xmlUrlType="0" text="Kevin Menard’s Weblog" title="Kevin Menard’s Weblog" type="rss" version="ATOM" xmlUrl="https://nirvdrum.com/feed.xml"/>
+      </outline>
+      <outline description="Thoughts and writeups from Davis Haupt." encoding="UTF-8" rssguard:postProcess="" rssguard:xmlUrlType="0" text="Davis Haupt's Blog" title="Davis Haupt's Blog" type="rss" version="RSS" xmlUrl="https://davi.sh/rss.xml"/>
+      <outline description="" encoding="UTF-8" rssguard:postProcess="" rssguard:xmlUrlType="0" text="Cat's Eye Technologies: New Developments" title="Cat's Eye Technologies: New Developments" type="rss" version="ATOM" xmlUrl="https://catseye.tc/feeds/atom_30_news.xml"/>
+      <outline description="The personal website and blog of Daniel Long Sockwell, a lawyer-turned-programmer with an interest in web development, open source, and making things as simple as possible." encoding="UTF-8" rssguard:postProcess="" rssguard:xmlUrlType="0" text="Codesections" title="Codesections" type="rss" version="RSS" xmlUrl="https://www.codesections.com/rss.xml"/>
+      <outline description="" encoding="utf-8" rssguard:postProcess="" rssguard:xmlUrlType="0" text="Julia Evans" title="Julia Evans" type="rss" version="ATOM" xmlUrl="https://jvns.ca/atom.xml"/>
+    </outline>
+    <outline description="" text="update">
+      <outline description="News from the Mercury programming language project." encoding="UTF-8" rssguard:postProcess="" rssguard:xmlUrlType="0" text="The Mercury Project" title="The Mercury Project" type="rss" version="RSS" xmlUrl="https://mercurylang.org/rss.xml"/>
+      <outline description="Factor: the language, the theory, and the practice." encoding="UTF-8" rssguard:postProcess="" rssguard:xmlUrlType="0" text="Re: Factor" title="Re: Factor" type="rss" version="ATOM" xmlUrl="https://re-factor.blogspot.com/feeds/posts/default"/>
+      <outline description="Aim for the top!" encoding="UTF-8" rssguard:postProcess="" rssguard:xmlUrlType="0" text="SUKEBAN GAMES OFFICIAL WEBFRONT" title="SUKEBAN GAMES OFFICIAL WEBFRONT" type="rss" version="RSS" xmlUrl="https://sukeban.moe/index.php/feed/"/>
+      <outline description="" encoding="UTF-8" rssguard:postProcess="" rssguard:xmlUrlType="0" text="New Posts - Challenges - Code Golf" title="New Posts - Challenges - Code Golf" type="rss" version="ATOM" xmlUrl="https://codegolf.codidact.com/categories/49/feed.rss"/>
+      <outline description="" encoding="utf-8" rssguard:postProcess="" rssguard:xmlUrlType="0" text="Futhark Developer Blog" title="Futhark Developer Blog" type="rss" version="ATOM" xmlUrl="https://futhark-lang.org/atom.xml"/>
+      <outline description="Private feed for razetime" encoding="UTF-8" rssguard:postProcess="" rssguard:xmlUrlType="0" text="Lobsters: Private feed for razetime" title="Lobsters: Private feed for razetime" type="rss" version="RSS" xmlUrl="https://lobste.rs/rss?token=0hovl39ZKFZbNNkhlZMBJwh43PhM7FbCque1ctVxn4yMpNCurENnjnKFpzCi"/>
+      <outline description="" encoding="UTF-8" rssguard:postProcess="" rssguard:xmlUrlType="0" text="Private Feed for razetime" title="Private Feed for razetime" type="rss" version="ATOM" xmlUrl="https://github.com/razetime.private.atom?token=ACUBJFZWALP7XV6CXYYS2PWB3CGT2"/>
+      <outline description="Recent content in Blogs on The Hare programming language" encoding="utf-8" rssguard:postProcess="" rssguard:xmlUrlType="0" text="Blogs on The Hare programming language" title="Blogs on The Hare programming language" type="rss" version="RSS" xmlUrl="https://harelang.org/blog/index.xml"/>
+      <outline description="" encoding="UTF-8" rssguard:postProcess="" rssguard:xmlUrlType="0" text="All changes" title="All changes" type="rss" version="ATOM" xmlUrl="https://concatenative.org/wiki/changes.atom"/>
+    </outline>
+    <outline description="" text="news/history">
+      <outline description="" encoding="utf-8" rssguard:postProcess="" rssguard:xmlUrlType="0" text="Web3 is Going Just Great" title="Web3 is Going Just Great" type="rss" version="ATOM" xmlUrl="https://web3isgoinggreat.com/feed.xml"/>
+      <outline description="" encoding="utf-8" rssguard:postProcess="" rssguard:xmlUrlType="0" text="Gamedev.js Weekly Archive Feed" title="Gamedev.js Weekly Archive Feed" type="rss" version="RSS" xmlUrl="https://us19.campaign-archive.com/feed?u=d325ac3a7acd0195e5921456b&amp;id=12295af4b2"/>
+      <outline description="Jason Scott's Weblog" encoding="UTF-8" rssguard:postProcess="" rssguard:xmlUrlType="0" text="ASCII by Jason Scott" title="ASCII by Jason Scott" type="rss" version="RSS" xmlUrl="http://ascii.textfiles.com/feed"/>
+      <outline description="Latest news and features from theguardian.com, the world's leading liberal voice" encoding="utf-8" rssguard:postProcess="" rssguard:xmlUrlType="0" text="Adrian Chiles | The Guardian" title="Adrian Chiles | The Guardian" type="rss" version="RSS" xmlUrl="https://www.theguardian.com/profile/adrian-chiles/rss"/>
+      <outline description="The best stories from the web's history" encoding="UTF-8" rssguard:postProcess="" rssguard:xmlUrlType="0" text="The History of the Web" title="The History of the Web" type="rss" version="ATOM" xmlUrl="https://thehistoryoftheweb.com/feed/atom"/>
+      <outline description="No trackers, no ads. Black type, white background. Privacy policy: we don't collect or retain any data at all ever period." encoding="UTF-8" rssguard:postProcess="" rssguard:xmlUrlType="0" text="Pluralistic: Daily links from Cory Doctorow" title="Pluralistic: Daily links from Cory Doctorow" type="rss" version="ATOM" xmlUrl="https://pluralistic.net//atom"/>
+    </outline>
+    <outline description="" text="art">
+      <outline description="updates from the underground garden" encoding="utf-8" rssguard:postProcess="" rssguard:xmlUrlType="0" text="underground garden" title="underground garden" type="rss" version="RSS" xmlUrl="https://heckscaper.com/rss.xml"/>
+      <outline description="My poetry is an expression of self, showing how I feel" encoding="UTF-8" rssguard:postProcess="" rssguard:xmlUrlType="0" text="Protesilaos Stavrou: Poetry" title="Protesilaos Stavrou: Poetry" type="rss" version="RSS" xmlUrl="https://protesilaos.com/poems.xml"/>
+      <outline description="" encoding="UTF-8" rssguard:postProcess="" rssguard:xmlUrlType="0" text="i watch one movie a year" title="i watch one movie a year" type="rss" version="RSS" xmlUrl="https://filmitakes.wordpress.com/feed/"/>
+      <outline description="Books and standalone publications" encoding="UTF-8" rssguard:postProcess="" rssguard:xmlUrlType="0" text="Protesilaos Stavrou: Books and Essays" title="Protesilaos Stavrou: Books and Essays" type="rss" version="RSS" xmlUrl="https://protesilaos.com/books.xml"/>
+      <outline description="Lust For Art" encoding="UTF-8" rssguard:postProcess="" rssguard:xmlUrlType="0" text="কারুবাসনা" title="কারুবাসনা" type="rss" version="ATOM" xmlUrl="https://karubashona.blogspot.com/feeds/posts/default"/>
+      <outline description="Ritual Dust • Write your own folklore" encoding="UTF-8" rssguard:postProcess="" rssguard:xmlUrlType="0" text="Ritual Dust" title="Ritual Dust" type="rss" version="RSS" xmlUrl="https://ritualdust.com/index.xml"/>
+      <outline description="Blog of independent video game developer and digital media artist Matt Sephton. Featuring vintage Macintosh, game development, digital artwork, Japanese esoterica, video game reviews, hacks and tips, and much more." encoding="UTF-8" rssguard:postProcess="" rssguard:xmlUrlType="0" text="⌘I&amp;nbsp;&amp;nbsp;Get&amp;nbsp;Info" title="⌘I&amp;nbsp;&amp;nbsp;Get&amp;nbsp;Info" type="rss" version="RSS" xmlUrl="https://blog.gingerbeardman.com/feed.xml"/>
+      <outline description="A weekly newsletter with the best stories of the internet." encoding="utf-8" rssguard:postProcess="" rssguard:xmlUrlType="0" text="Arne’s Weekly" title="Arne’s Weekly" type="rss" version="RSS" xmlUrl="https://arne.me/weekly/feed.xml"/>
+      <outline description="Arne Bahlo's personal website" encoding="utf-8" rssguard:postProcess="" rssguard:xmlUrlType="0" text="Arne Bahlo" title="Arne Bahlo" type="rss" version="RSS" xmlUrl="https://arne.me/feed.xml"/>
+      <outline description="Every book I read gets a review and ends up here." encoding="utf-8" rssguard:postProcess="" rssguard:xmlUrlType="0" text="Arne Bahlo’s Book Reviews" title="Arne Bahlo’s Book Reviews" type="rss" version="RSS" xmlUrl="https://arne.me/book-reviews/feed.xml"/>
+    </outline>
+    <outline description="" text="chinese">
+      <outline description="A better way of learning Mandarin" encoding="UTF-8" rssguard:postProcess="" rssguard:xmlUrlType="0" text="Recent articles about how to learn Mandarin" title="Recent articles about how to learn Mandarin" type="rss" version="RSS" xmlUrl="https://www.hackingchinese.com/blog/feed"/>
+      <outline description="Recent content on Chinese Boost" encoding="utf-8" rssguard:postProcess="" rssguard:xmlUrlType="0" text="Chinese Boost" title="Chinese Boost" type="rss" version="RSS" xmlUrl="https://www.chineseboost.com/index.xml"/>
+      <outline description="A resource to help advanced learners of Chinese maintain and improve their language skills, and stay on top of the latest language trends in China. " encoding="UTF-8" rssguard:postProcess="" rssguard:xmlUrlType="0" text="Slow Chinese 每周漫闻" title="Slow Chinese 每周漫闻" type="rss" version="RSS" xmlUrl="https://newsletter.slowchinese.net/feed"/>
+    </outline>
+  </body>
+</opml>
